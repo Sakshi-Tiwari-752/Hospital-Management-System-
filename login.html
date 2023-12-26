@@ -1,0 +1,113 @@
+<!-- <?php include("database.php"); ?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Hospital Management
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+
+  <link rel="stylesheet " href="css/nav.css">
+  <link rel="stylesheet " href="css/login.css">
+  <link rel="stylesheet " href="css/style.css">
+</head>
+
+<style>
+  body {
+    background-image: url("images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-box">
+        <a href="home.html">
+          <img class="logo" src="images/favicon.png">
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="doctor.html">Doctor</a></li>
+          <li><a href="appointment.php">Appointment</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+    <header>
+      <h3 class="title">Login & Registration Form</h3>
+    </header>
+
+    <!-- container div -->
+    <div class="login_container">
+
+      <!-- upper button section to select
+			the login or signup form -->
+      <div class="slider"></div>
+      <div class="btn1">
+        <button class="login">Login</button>
+        <button class="signup">Signup</button>
+      </div>
+
+      <!-- Form section that contains the
+			login and the signup form -->
+      <div class="form-section">
+
+        <!-- login form -->
+        <div class="login-box">
+          <input type="email" class="email ele" placeholder="youremail@email.com">
+          <input type="password" class="password ele" placeholder="password">
+          <button class="clkbtn">Login</button>
+        </div>
+
+        <!-- signup form -->
+        <div class="signup-box">
+          <input type="text" class="name ele" placeholder="Enter your name">
+          <input type="email" class="email ele" placeholder="youremail@email.com">
+          <input type="password" class="password ele" placeholder="password">
+          <input type="password" class="password ele" placeholder="Confirm password">
+          <button class="clkbtn">Signup</button>
+        </div>
+      </div>
+    </div><br><br>
+
+
+    <script>let signup = document.querySelector(".signup");
+      let login = document.querySelector(".login");
+      let slider = document.querySelector(".slider");
+      let formSection = document.querySelector(".form-section");
+
+      signup.addEventListener("click", () => {
+        slider.classList.add("moveslider");
+        formSection.classList.add("form-section-move");
+      });
+
+      login.addEventListener("click", () => {
+        slider.classList.remove("moveslider");
+        formSection.classList.remove("form-section-move");
+      });
+    </script>
+  </body>
+
+</html>

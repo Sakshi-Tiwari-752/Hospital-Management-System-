@@ -1,0 +1,89 @@
+body { 
+    /* background-color: #badff1; */
+   background-image: url("file:///C:/Users/arpit/OneDrive/Desktop/college%20project/images/background3.jpg") no-repeat center fixed; 
+   background-size: cover;
+   
+ } 
+
+/* About aection */
+.about_sec{
+    /* background-image: url(images/background5.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:5px;
+    width:100%;
+    height:750px;
+    margin-top: 0%;
+    /* border:solid white; */
+}
+ 
+ body { 
+ background-size: cover;
+} 
+
+.about {
+  margin-top: 80px;
+  color: #005B41;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 60px;
+  position: relative;
+}
+
+.aboutus {
+  margin-top: 60px;
+  color: #005B41;
+  font-size: 50px;
+  margin-left: 160px;
+  font-family: Garamond, serif;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-family: Garamond, serif;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 160px;
+  color: #005B41
+}
+
+#more {
+  display: none;
+}
+
+#myBtnn {
+  color: white;
+  background-color:#005B41;
+  margin-left: 160px;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+#myBtnn:hover{
+  background-color: white;
+  color: #005B41;
+  border:  solid #005B41;
+}
+
+@media screen and (max-width: 800px) and (min-width: 200px) {
+ .about_sec {
+   height:1400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .paragraph, .aboutus, #myBtnn {
+    margin-top: 20px;
+    margin-left: 20px;
+   }
+ }
+
+ @media only screen and (max-width:1300px){
+    /*for tablet*/
+    .about_sec{
+        width:100%;
+    }
+  }
+

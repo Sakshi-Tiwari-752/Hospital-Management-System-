@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Hospital Management
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+
+  <link rel="stylesheet " href="css/nav.css">
+  <link rel="stylesheet " href="css/style.css">
+  <link rel="stylesheet " href="css/about.css">
+
+</head>
+
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-box">
+        <a href="/">
+          <img class="logo" src="images/favicon.png">
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="doctor.php">Doctor</a></li>
+          <li><a href="appointment.php">Appointment</a></li>
+          <li><a href="login.html">Login</a></li>
+          <!-- <li><a href="signup.html">signup</a></li> -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="hero_sec">
+
+    <div class="image-slideshow">
+      <div class="image fade">
+        <img class="img" src="images/slider.jpg" alt="bg1">
+      </div>
+      <div class="image fade">
+        <img class="img" src="images/slider2.jpg" alt="bg2">
+      </div>
+      <div class="image fade">
+        <img class="img" src="images/slider3.jpg" alt="bg3">
+      </div>
+      <div class="image fade">
+        <img class="img" src="images/slider.jpg" alt="bg4">
+      </div>
+      <div class="image fade">
+        <img class="img" src="images/background4.jpg" alt="bg5">
+      </div>
+      <div class="image fade">
+        <img class="img" src="images/background5.jpg" alt="bg6">
+      </div>
+    </div>
+    <script src="css/slide.js"></script>
+
+    <h1 class="typed1"> Doctors don't just save lives; <br> they give hope a fighting chance.</h1>
+    <p class="typed2"> "Doctors: Where science meets empathy."</p>
+
+
+    <button class="btn">VISIT</button>
+  </div>
+
+
+  <!-- about section -->
+
+  <body>
+    <div class="about_sec">
+
+      <style>
+        .about_sec {
+          background-image: url("images/background4.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      </style>
+
+      <h1 class="about">About Us</h1>
+
+      <h1 class="aboutus">Take The World's Best <br> Quality Treatement</h1>
+
+      <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+        Lorem Ipsum has been the industry's standard dummy text ever since 1500s,<br>
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br><br>
+        It has survived not only five centuries, but also the leap into electronic typesetting, <br>
+        remaining essentially unchanged. It was popularised in the 1960s with the release of<br><span
+          id="dots">...</span><span id="more">
+          luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, <br>
+          sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis<br>
+          imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.<br>
+          Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+        </span></p><br>
+      <button onclick="myFunction()" id="myBtnn">Read more</button>
+    </div>
+    </div>
+  </body>
+  <!-- JS for the learn more button -->
+
+
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtnn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+  <br><br>
+
+  <!--ICON SECTION-->
+  <section class="icons-container">
+    <style>
+      .icons-container {
+        /* background-image: url("images/bg1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background-color: rgb(213, 208, 208);
+        border: solid rgb(203, 188, 188);
+      }
+    </style>
+
+    <div class="icons">
+      <i class="fas fa-user-md"></i>
+      <h3>150+</h3>
+      <p><strong>doctors at work</strong></p>
+    </div>
+
+    <div class="icons">
+      <i class="fas fa-users"></i>
+      <h3>1030+</h3>
+      <p><strong>satisfied patients</strong></p>
+    </div>
+
+    <div class="icons">
+      <i class="fas fa-procedures"></i>
+      <h3>490+</h3>
+      <p><strong>bed facility</strong></p>
+    </div>
+
+    <div class="icons">
+      <i class="fas fa-hospital"></i>
+      <h3>70+</h3>
+      <p><strong>available hospitals</strong></p>
+    </div>
+  </section>
+
+
+  <h1 class="about">
+    Services
+  </h1><br>
+
+  <div class="containers">
+    <style>
+      .min-cont {
+        background-image: url("images/background4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+    <div class="min-cont">
+      <h2 class="heading">Covid-19 Test</h2>
+      <button class="book"> Book</button>
+    </div>
+
+
+    <div class="min-cont">
+      <h2 class="heading">Antibody Test</h2>
+      <button class="book"> Book </button>
+    </div>
+
+
+    <div class="min-cont">
+      <h2 class="heading">Blood Test</h2>
+      <button class="book"> Book </button>
+    </div>
+
+
+    <div class="min-cont">
+      <h2 class="heading">FluShot</h2>
+      <button class="book">Book</button>
+    </div>
+    <button class="see-more"><a href="service.html">See more</button></a>
+  </div>
+
+
+<!-- 
+  <div class="mini-cont">
+  <h1 class="appoin-heading">Schedule Your Appointment Online..</h1>
+    <button class="appoin"><a href="appointment.php">Click here</button></a>
+  </div> -->
+
+  <br><br>
+
+<h6 class = "shop-heading">Our pharmacy is your trusted source<br> for quality medications.</h6><br><br><br>
+
+  <div class="shop-section">
+    <div class="box">
+        <div class="box-content">
+            <h3>Health $ Personal Care</h3>
+            <div class="box-img"
+                style="background-image: url('images/medicine1.jpg');">
+            </div>
+            <a href = " " >See more</a>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-content">
+            <h3>Health & Personal Care</h3>
+            <div class="box-img"
+                style="background-image: url('images/medicine2.jpg');">
+            </div>
+            <a href = " " >See more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">
+            <h3>Health & Personal Care</h3>
+            <div class="box-img"
+                style="background-image: url('images/medicine3.jpeg');">
+            </div>
+           <a href = " " >See more</a>
+        </div>
+    </div>
+  </div>
+
+
+<br><br>
+
+
+
+
+
+
+
+  <!--footer section-->
+  <section class="footer">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="links">
+          <li><a href="first.html">Home </a></li>
+          <li><a href="about.html">About </a></li>
+          <li><a href="doctor.php">Doctors</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="appointment.php">appointment</a></li>
+          <li><a href="appointment.php">Login/Signup</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="links">
+          <li><a href="#">Free Designs</a></li>
+          <li><a href="#">Latest Designs</a></li>
+          <li><a href="#">Themes</a></li>
+          <li><a href="#">Popular Designs</a></li>
+          <li><a href="#">Art Skills</a></li>
+          <li><a href="#">New Uploads</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="links">
+          <li><a href="#">Customer Agreement</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">GDPR</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Media Kit</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact us </h4>
+        <p>
+          Kindly fill all the to connect with us..
+        </p>
+        <form action="#">
+          <input type="email" placeholder="Your email" required><br>
+          <input type="number" placeholder="Your Ph no." required>
+          <button type="submit">SUBMIT</button>
+        </form>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div w3-include-html="service.html"></div> -->
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Hospital Management
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+
+
+  <link rel="stylesheet " href="css/style.css">
+  <link rel="stylesheet " href="css/nav.css">
+  <link rel="stylesheet" href="css/about.css" />
+
+  <style>
+    body {
+      background-image: url("images/background4.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* height:750px; */
+    }
+  </style>
+</head>
+
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-box">
+        <a href="home.html">
+          <img class="logo" src="images/favicon.png">
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="doctor.html">Doctor</a></li>
+          <li><a href="appointment.html">Appointment</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+    <div class="about_sec">
+      <h1 class="about">About Us</h1>
+
+      <h1 class="aboutus">Take The World's Best <br> Quality Treatement</h1>
+
+      <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+        Lorem Ipsum has been the industry's standard dummy text ever since 1500s,<br>
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br><br>
+        It has survived not only five centuries, but also the leap into electronic typesetting, <br>
+        remaining essentially unchanged. It was popularised in the 1960s with the release of<br><span
+          id="dots">...</span><span id="more">
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing<br>
+          software like Aldus PageMaker including versions of Lorem Ipsum. <br>
+          luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, <br>
+          sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis<br>
+          imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.<br>
+          Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+        </span></p><br>
+      <button onclick="myFunction()" id="myBtnn">Read more</button>
+    </div>
+
+
+    <!-- JS for the learn more button -->
+
+
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtnn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+
+  </body>
+  <br><br><br>
+
+  <!--footer section-->
+  <section class="footer">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="links">
+          <li><a href="first.html">Home </a></li>
+          <li><a href="about.html">About </a></li>
+          <li><a href="doctor.php">Doctors</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="appointment.php">appointment</a></li>
+          <li><a href="appointment.php">Login/Signup</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="links">
+          <li><a href="#">Free Designs</a></li>
+          <li><a href="#">Latest Designs</a></li>
+          <li><a href="#">Themes</a></li>
+          <li><a href="#">Popular Designs</a></li>
+          <li><a href="#">Art Skills</a></li>
+          <li><a href="#">New Uploads</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="links">
+          <li><a href="#">Customer Agreement</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">GDPR</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Media Kit</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact us </h4>
+        <p>
+          Kindly fill all the to connect with us..
+        </p>
+        <form action="#">
+          <input type="email" placeholder="Your email" required><br>
+          <input type="number" placeholder="Your Ph no." required>
+          <button type="submit">SUBMIT</button>
+        </form>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</html>

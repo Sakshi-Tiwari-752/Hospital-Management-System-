@@ -1,0 +1,167 @@
+
+.service-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap:2rem;
+  border: #005B41;
+}
+
+.service-container .service-box{
+  text-align: center;
+  background:#038460;
+  border-radius: .5rem;
+  border:var(--border);
+  box-shadow: var(--box-shadow);
+  padding: 1rem;
+  /* border: #289672; */
+  border: solid black;
+  width: 400px;
+  height: 500px;
+  margin-left:0px;
+  margin-left: 2rem;
+}
+
+ .service-container .service-box {
+  height: 18rem;
+  width: 18rem;
+  border:var(--border);
+  border-radius: .5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.service-container .service-box h3{
+  /* color:var(--white); */
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+.service-container .service-box p{
+  color: white;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.service-container .service-box i{
+  color: white;
+  font-size: 3.5rem;
+  padding-top: 1.5rem;
+}
+
+.service-container .service-box i:hover{
+  color: gray;
+  font-size: 3.8rem;
+}
+
+ .service-container .service-box {
+  /* color:var(--white); */
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+.diff-services{
+  height:880px;
+  width:88%;
+  margin-left: 170px;
+}
+
+  @media only screen and (max-width: 1200px){
+    .diff-services{
+       height:2150px;
+       margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 800px){
+  .diff-services{
+     height:1080px;
+     width:88%;
+     margin-left: 60px;
+  }
+}
+
+.diff-heading{
+  color:#005B41;
+  text-align: center;
+  font-size:45px;
+  margin-top: 15px;
+}
+
+.diff-para{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.diff-cont{
+  border: solid dark rgb(107, 106, 106);
+  width: 350px;
+  height:250px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 75px;
+ border-top-right-radius: 28px;
+ /* box-shadow: 10PX 20PX black; */
+ 
+}
+
+@media only screen and (max-width: 600px){
+  .diff-cont{
+     height:250px;
+     width:350px;
+     margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 700px){
+  .diff-cont{
+     height:250px;
+     margin-left: 270px;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .diff-cont{
+     margin-left: 120px;
+    
+  }
+}
+
+.diff-cont:hover{
+   background-color:#dedcdc;
+   
+}
+
+.diff-cont i {
+color: #005B41;
+font-size: 60px;
+margin-left: 150px;
+margin-top: 20px;
+align-items: center;
+}
+
+.small-heading{
+margin-top: 20px;
+text-align: center;
+font-size: 25px;
+}
+
+.small-heading:hover{
+color: #005B41;
+}
+
+.small-para{
+text-align: center;
+margin-top: 20px;
+color:gray
+}
+
+
